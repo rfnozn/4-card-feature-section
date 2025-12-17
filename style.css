@@ -74,3 +74,14 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/** Custom color properties **/
+:root {
+  --clr-grey-500: #4d4f62;
+  --clr-grey-400: #6a7178;
+  --clr-white: #fff;
+  --clr-red: #EA5454;
+  --clr-cyan: #44D3D2;
+  --clr-blue: #549EF2;
+  --clr-orange: #FCAE4A;
+}
