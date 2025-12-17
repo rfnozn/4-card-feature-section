@@ -18,6 +18,7 @@
 }
 
 body {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   /* 4. Add accessible line-height */
   line-height: 1.5;
   /* 5. Improve text rendering */
@@ -80,8 +81,36 @@ h6 {
   --clr-grey-500: #4d4f62;
   --clr-grey-400: #6a7178;
   --clr-white: #fff;
-  --clr-red: #EA5454;
-  --clr-cyan: #44D3D2;
-  --clr-blue: #549EF2;
-  --clr-orange: #FCAE4A;
+  --clr-red: #ea5454;
+  --clr-cyan: #44d3d2;
+  --clr-blue: #549ef2;
+  --clr-orange: #fcae4a;
+}
+
+/** Custom font faces **/
+/* poppins-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  src: url("fonts/poppins-v24-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/poppins-v24-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("fonts/poppins-v24-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
