@@ -114,3 +114,26 @@ h6 {
   font-weight: 600;
   src: url("fonts/poppins-v24-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+.section__title {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 1.4;
+  letter-spacing: 0.25px;
+  text-align: center;
+  margin-block-end: 16px;
+
+  span {
+    display: block;
+    font-weight: 600;
+  }
+}
+
+.section__text {
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.1px;
+  text-align: center;
+  width: 33ch;
+  margin-inline: auto;
+}
