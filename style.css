@@ -219,8 +219,8 @@ h6 {
   .card-container {
     max-width: 1114px;
     padding-block-end: 163px;
-    grid-template-columns: auto auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(4, auto);
     grid-template-areas:
       ". . team-builder team-builder . ."
       "supervisor supervisor  team-builder team-builder calculator calculator"
