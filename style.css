@@ -180,6 +180,7 @@ h6 {
   .card-container {
     max-width: 660px;
     margin-inline: auto;
+    padding-block: 74px 80px;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto;
     grid-template-areas:
@@ -211,5 +212,19 @@ h6 {
 
   .section__text {
     width: 55ch;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card-container {
+    max-width: 1114px;
+    padding-block-end: 163px;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      ". . team-builder team-builder . ."
+      "supervisor supervisor  team-builder team-builder calculator calculator"
+      "supervisor supervisor karma karma calculator calculator"
+      ". . karma karma . .";
   }
 }
