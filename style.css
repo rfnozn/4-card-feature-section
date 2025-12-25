@@ -18,6 +18,8 @@
 }
 
 body {
+  display: grid;
+  place-content: center;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   padding-block-start: 60px;
   background-color: #fafafa;
@@ -174,6 +176,22 @@ h6 {
 
 .card__img {
   float: right;
+}
+
+.team-builder {
+  border-top: solid 4px var(--clr-red);
+}
+
+.supervisor {
+  border-top: solid 4px var(--clr-cyan);
+}
+
+.karma {
+  border-top: solid 4px var(--clr-orange);
+}
+
+.calculator {
+  border-top: solid 4px var(--clr-blue);
 }
 
 @media screen and (min-width: 768px) {
